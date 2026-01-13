@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Mon Serveur Vanilla",
+    "description": "Serveur Vanilla 1.20.1",
+    "address": "localhost",
+    "icon": "https://github.com/dscalzi/HeliosLauncher/blob/master/app/assets/images/SealCircle.png",
+    "mainServer": true,
+    "autoconnect": false,
+    "discord": {
+      "shortId": "Vanilla",
+      "largeImageText": "En jeu sur le Vanilla",
+      "largeImageKey": "logo"
+    },
+    "javaOptions": {
+      "ram": {
+        "recommended": 4096,
+        "minimum": 2048
+      }
+    }
+  },
+  "untrackedFiles": []
+}

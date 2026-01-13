@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "meta": {
+    "rss": "https://github.com/leoo955/Servermc/blob/main/news.rss",
+    "discord": {
+      "clientId": "1460331680421117993",
+      "smallImageText": "Joue sur Mon Putain de serveur sinon je t'arrache les deux yeux",
+      "smallImageKey": "logo"
+    }
+  }
+}
