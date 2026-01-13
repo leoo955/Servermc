@@ -13,7 +13,7 @@
       "description": "MonServeurVanilla Running Minecraft 1.21.11",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "127.0.0.1:25565",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
