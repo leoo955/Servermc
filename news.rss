@@ -1,1 +1,64 @@
-bonjour
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>ELECTRUM - Actualités du Serveur</title>
+    <link>https://www.electrum-serveur.fr</link>
+    <description>Suivez les mises à jour, patch notes et événements du serveur Minecraft RPG Electrum.</description>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 14 Jan 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://www.electrum-serveur.fr/rss.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+        <title>🚀 Ouverture de la Bêta : Electrum 1.0 est en ligne !</title>
+        <link>https://www.electrum-serveur.fr/news/lancement-beta</link>
+        <guid>https://www.electrum-serveur.fr/news/lancement-beta</guid>
+        <pubDate>Wed, 14 Jan 2026 10:00:00 GMT</pubDate>
+        <description>
+            <![CDATA[
+            <p>Nous sommes fiers d'annoncer l'ouverture officielle du serveur <strong>Electrum</strong> en version 1.21.11 !</p>
+            <p>Rejoignez-nous dès maintenant pour découvrir :</p>
+            <ul>
+                <li>Une économie stable gérée par les joueurs.</li>
+                <li>Les objets légendaires : Trident de Poséidon & Sandales d'Hermès.</li>
+                <li>Un système de métiers évolutif.</li>
+            </ul>
+            <p>IP : play.electrum.fr</p>
+            ]]>
+        </description>
+        <category>Annonce</category>
+    </item>
+
+    <item>
+        <title>⚔️ Guide Gameplay : Comment utiliser la Forge Environnementale ?</title>
+        <link>https://www.electrum-serveur.fr/guide/forge-environnementale</link>
+        <guid>https://www.electrum-serveur.fr/guide/forge-environnementale</guid>
+        <pubDate>Mon, 12 Jan 2026 18:30:00 GMT</pubDate>
+        <description>
+            <![CDATA[
+            <p>L'enclume classique a évolué ! Sur Electrum, vous devez construire une structure autour de votre enclume pour débloquer son potentiel.</p>
+            <p><strong>Les Tiers disponibles :</strong></p>
+            <ul>
+                <li><strong>Fer (Iron Tier) :</strong> Entourez l'enclume de 12 blocs de fer pour réduire le coût en XP (-20%).</li>
+                <li><strong>Diamant (God Tier) :</strong> Utilisez 12 blocs de diamant pour supprimer la limite "Too Expensive".</li>
+                <li><strong>Netherite (Over-Enchant) :</strong> Placez un mur de netherite pour dépasser les limites d'enchantement (ex: Tranchant VI).</li>
+            </ul>
+            ]]>
+        </description>
+        <category>Gameplay</category>
+    </item>
+
+    <item>
+        <title>🌍 L'exploration commence : Sulfa, Sylvia et Salma</title>
+        <link>https://www.electrum-serveur.fr/news/dimensions-reveal</link>
+        <guid>https://www.electrum-serveur.fr/news/dimensions-reveal</guid>
+        <pubDate>Sat, 10 Jan 2026 14:00:00 GMT</pubDate>
+        <description>
+            Les portails vers les mondes ressources et factions sont ouverts.
+            Tapez /warp sulfa pour affronter la chaleur volcanique, /warp sylvia pour la forêt dense ou /warp salma pour dompter l'océan infini.
+            Attention : Le PvP est actif dans ces zones !
+        </description>
+        <category>Mise à jour</category>
+    </item>
+
+</channel>
+</rss>
