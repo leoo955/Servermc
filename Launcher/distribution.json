@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://raw.githubusercontent.com/leoo955/Servermc/blob/main/news.rss",
+  "rss": "https://raw.githubusercontent.com/leoo955/Servermc/161a829d35dc1f3673e56858e75216273ec5495b/news.rss",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
