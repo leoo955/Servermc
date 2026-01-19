@@ -116,13 +116,23 @@
           ]
         },
         {
-          "id": "net.mcreator:soleil:1.0.0@jar",
-          "name": "Soleil",
+          "id": "fr.leoo:electrum:1.0.0@jar",
+          "name": "ElectrumMod",
           "type": "FabricMod",
           "artifact": {
-            "size": 10739462,
-            "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/servers/Electrum-1.21.11/fabricmods/required/Goofy1.0.0-fabric-1.21.8.jar",
-            "MD5": "adb106556d50f290d23a789efdf0994e"
+            "size": 1216110,
+            "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/servers/Electrum-1.21.11/fabricmods/required/electrum-1.0.0-fabric-1.21.8.jar",
+            "MD5": "7e0196bec9416f385967c6243d95e80c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.141.1+1.21.11@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2412038,
+            "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/servers/Electrum-1.21.11/fabricmods/required/fabric-api-0.141.1+1.21.11.jar",
+            "MD5": "8bc9611f5a696282542b8b4f9ae7ac69"
           }
         }
       ]
