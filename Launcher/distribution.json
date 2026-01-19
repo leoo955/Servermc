@@ -1,79 +1,139 @@
 {
-  version: '1.0.0',
-  rss: '<LINK TO RSS FEED>',
-  discord: {
-    clientId: '<FILL IN OR REMOVE DISCORD OBJECT>',
-    smallImageText: '<FILL IN OR REMOVE DISCORD OBJECT>',
-    smallImageKey: '<FILL IN OR REMOVE DISCORD OBJECT>'
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
-  servers: [
+  "servers": [
     {
-      id: 'Electrum-1.21.11',
-      name: 'Electrum (Minecraft 1.21.11)',
-      description: 'Electrum Running Minecraft 1.21.11 (Fabric v0.18.4)',
-      icon: null,
-      version: '1.0.0',
-      address: '91.197.6.19:20686',
-      minecraftVersion: '1.21.11',
-      discord: {
-        shortId: '<FILL IN OR REMOVE DISCORD OBJECT>',
-        largeImageText: '<FILL IN OR REMOVE DISCORD OBJECT>',
-        largeImageKey: '<FILL IN OR REMOVE DISCORD OBJECT>'
+      "id": "Electrum-1.21.8",
+      "name": "Electrum (Minecraft 1.21.8)",
+      "description": "Electrum Running Minecraft 1.21.8 (Fabric v0.18.4)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.8",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      mainServer: false,
-      autoconnect: false,
-      javaOptions: undefined,
-      modules: [
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
         {
-          id: 'net.fabricmc:fabric-loader:0.18.4',
-          name: 'Fabric (fabric-loader)',
-          type: 'Fabric',
-          artifact: [Object],
-          subModules: [Array]
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.8-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "53254b6d4f235c7cc05e1fc9eb4ed3d7",
+                "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/versions/1.21.8-fabric-0.18.4/1.21.8-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.8",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 746437,
+                "MD5": "72c38e6c7d436b28b88f9a3a2369619d",
+                "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/repo/lib/net/fabricmc/intermediary/1.21.8/intermediary-1.21.8.jar"
+              }
+            }
+          ]
         },
         {
-          id: 'generated.fabricmod:fabric-api:0.141.1+1.21.11@jar',
-          name: 'Fabric API',
-          type: 'FabricMod',
-          artifact: [Object]
-        }
-      ]
-    },
-    {
-      id: 'Electrum-1.21.8',
-      name: 'Electrum (Minecraft 1.21.8)',
-      description: 'Electrum Running Minecraft 1.21.8 (Fabric v0.18.4)',
-      icon: null,
-      version: '1.0.0',
-      address: 'localhost:25565',
-      minecraftVersion: '1.21.8',
-      discord: {
-        shortId: '<FILL IN OR REMOVE DISCORD OBJECT>',
-        largeImageText: '<FILL IN OR REMOVE DISCORD OBJECT>',
-        largeImageKey: '<FILL IN OR REMOVE DISCORD OBJECT>'
-      },
-      mainServer: false,
-      autoconnect: false,
-      javaOptions: undefined,
-      modules: [
-        {
-          id: 'net.fabricmc:fabric-loader:0.18.4',
-          name: 'Fabric (fabric-loader)',
-          type: 'Fabric',
-          artifact: [Object],
-          subModules: [Array]
+          "id": "fr.leoo:electrum:1.0.0@jar",
+          "name": "ElectrumMod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1216110,
+            "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/servers/Electrum-1.21.8/fabricmods/required/electrum-1.0.0-fabric-1.21.8.jar",
+            "MD5": "7e0196bec9416f385967c6243d95e80c"
+          }
         },
         {
-          id: 'fr.leoo:electrum:1.0.0@jar',
-          name: 'ElectrumMod',
-          type: 'FabricMod',
-          artifact: [Object]
-        },
-        {
-          id: 'generated.fabricmod:fabric-api:0.136.1+1.21.8@jar',
-          name: 'Fabric API',
-          type: 'FabricMod',
-          artifact: [Object]
+          "id": "generated.fabricmod:fabric-api:0.136.1+1.21.8@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2269700,
+            "url": "https://raw.githubusercontent.com/leoo955/Servermc/main/Launcher/servers/Electrum-1.21.8/fabricmods/required/fabric-api-0.136.1+1.21.8.jar",
+            "MD5": "85d76d57a7b5bb7043ea815133d2f6ba"
+          }
         }
       ]
     }
