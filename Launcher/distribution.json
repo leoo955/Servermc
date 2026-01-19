@@ -13,7 +13,7 @@
       "description": "Electrum Running Minecraft 1.21.11 (Fabric v0.18.4)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "91.197.6.19:20686",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
